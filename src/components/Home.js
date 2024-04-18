@@ -39,17 +39,11 @@ const Home = () => {
     AOS.init({duration:2000});
   })
   const carouselItems = [
-    // <div className='video-container'>
-    //    <video autoPlay muted loop>
-    //     <source src={Onestop} type="video/mp4" />
-    // </video>
-    // </div>,
+    
     <div className='image1'></div>,
     <div className='image3'></div>,
     <div className='image4'></div>,
-    // <div className='image2'></div>,
-    // <div className='image5'></div>,
-     // eslint-disable-next-line
+    
     <img key="image4" src={soundism} alt="Image 4" />,
 
   ];
@@ -79,8 +73,7 @@ const Home = () => {
     <div className={`holderall ${isScrolled ? 'scrolled' : ''}`} id='theme'>
       <nav className='navv' data-aos="fade-down">
         <div className='navbar'>
-          {/* <ReactSwitch className='switch' onChange={toggleTheme} checked={theme === "light"}></ReactSwitch> */}
-          {/* <DarkMode onChange={toggleTheme} checked={theme==="light"}></DarkMode> */}
+        
           <span>Soundism</span>
           <Link className='links'>Gift with Soundism</Link>
           <Link className='links'>About</Link>
@@ -90,22 +83,14 @@ const Home = () => {
             <form name='search'>
               <input type='text' class='input' name='txt' onmouseout="this.value = ''; this.blur();" />
             </form>
-            {/* <i class="fas fa-search"></i> */}
+            
           </div>
           <img src={Cart} height='40px' width='40px' className='carts' alt='Cart' />
           <img src={Profile} height='40px' width='40px' className='profile' alt='Profile' />
         </div>
       </nav>
       <CarouselSlider items={carouselItems} />
-      {/* <div className='main-content'>
-        <div className='heading-main'>Our Bestsellers</div>
-        <div className='product-holder'>
-          <div className='product'></div>
-          <div className='product'></div>
-          <div className='product'></div>
-          <div className='product'></div>
-        </div>
-      </div> */}
+     
       <Products></Products>
       <div className='onestop' data-aos="fade-up">
         <video autoPlay loop muted>

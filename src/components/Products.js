@@ -71,15 +71,12 @@ const Products = () => {
             <span>Mic</span>
         </div>
 
-        {/* <div className='product'></div> */}
       </div>
       <div>
         <div className='navigator' onClick={() => scrollProducts(-1)}><img src={Leftnav}></img></div>
         <div className='navigators' onClick={() => scrollProducts(1)}><img src={Rightnav}></img></div>
       </div>
-      {/* <div className='navigator' onClick={() => scrollProducts(1)}>
-        ❯
-      </div> */}
+    
       
     </div>
   );
