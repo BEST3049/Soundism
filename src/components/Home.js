@@ -223,7 +223,7 @@ const Home = () => {
           <div class="content">
             <a href="#">
               <span class="title">
-                This is Soundism hahahaha
+                This is Soundism This is Soundism This is Soundism
               </span>
             </a>
             <p class="desc">
