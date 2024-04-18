@@ -113,79 +113,7 @@ const Home = () => {
         </video>
       </div>
       <div className='heading-main2' data-aos="fade-up"><span>Freshly Debuted</span> <Link>View all</Link></div>
-      {/* <div className='sub-content'>
-        
-        <div className='debuted-holder'>
-          <div className='debuted-product'>
-            <div className='debuimg'>
-              <img src={Headphone} />
-              <p className='product-gap'></p>
-              <span className='product-name'>Soundism RaptorRumble</span>
-              <p className='product-tagline'>Unleash the Roar of Immersive Sound with Soundism RaptorRumble.</p>
-              <div className='price-but-holder'>
-                <div className='price-holder'>
-                  <span className='price-pro'>₹2699</span>
-                  <span className='cutprice-pro'>₹3699</span>
-                </div>
-                <div className='button-holder'>
-                  <button className='buynow'>Buy Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='debuted-product'>
-            <div className='debuimg'>
-              <img src={Earpods} />
-              <p className='product-gap'></p>
-              <span className='product-name'>Soundism SparkWave</span>
-              <p className='product-tagline'>Ignite Your Auditory Experience with Soundism SparkWave.</p>
-              <div className='price-but-holder'>
-                <div className='price-holder'>
-                  <span className='price-pro'>₹1499</span>
-                  <span className='cutprice-pro'>₹1999</span>
-                </div>
-                <div className='button-holder'>
-                  <button className='buynow'>Buy Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='debuted-product'>
-            <div className='debuimg'>
-              <img src={GamingHeadphones2} />
-              <p className='product-gap'></p>
-              <span className='product-name'>Soundism ImmersiveXperience</span>
-              <p className='product-tagline'>Dive into an Unforgettable Auditory Journey with Soundism ImmersiveXperience</p>
-              <div className='price-but-holder'>
-                <div className='price-holder'>
-                  <span className='price-pro'>₹4699</span>
-                  <span className='cutprice-pro'>₹7199</span>
-                </div>
-                <div className='button-holder'>
-                  <button className='buynow'>Buy Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='debuted-product'>
-            <div className='debuimg'>
-              <img src={Gamingearphones} />
-              <p className='product-gap'></p>
-              <span className='product-name'>Soundism AeroWave Wired</span>
-              <p className='product-tagline'>Elevate Your Sonic Experience with Soundism AeroWave Wired-Where Precision Meets Power</p>
-              <div className='price-but-holder'>
-                <div className='price-holder'>
-                  <span className='price-pro'>₹699</span>
-                  <span className='cutprice-pro'>₹1199</span>
-                </div>
-                <div className='button-holder'>
-                  <button className='buynow'>Buy Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
+      
       <div className='card-holder' data-aos="fade-up">
         <div className='card'>
           <img src={Headphone} />
@@ -295,7 +223,7 @@ const Home = () => {
           <div class="content">
             <a href="#">
               <span class="title">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                This is Soundism hahahaha
               </span>
             </a>
             <p class="desc">
