@@ -299,7 +299,7 @@ const Home = () => {
         <h6>Terms & Conditions Apply</h6>
         <h5>© 2024 Soundism Private Limited.</h5>
         <br></br>
-        <h3>Website by Dharmeesh Rathod</h3>
+        <h3>Developed by Dharmeesh Rathod</h3>
         {/* <h6>Privacy Policy</h6> */}
       </div>
     </div>  
